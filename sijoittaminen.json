@@ -1,0 +1,53 @@
+{
+  "teksti": "Tervetuloa sijoittamisen maailmaan. Haluatteko oppia osakkeista vai kryptovaluutoista?",
+  "valinnat": [
+    {
+      "teksti": "Haluan oppia osakkeista. Mita on osakesijoittaminen?",
+      "seuraava": {
+        "teksti": "Osakesijoittaminen tarkoittaa rahan sijoittamista osakkeisiin. Osake on osuus jostain yhtiosta. Haluatko oppia lisaa?",
+        "valinnat": [
+          {
+            "teksti": "Kylla, haluan kuulla lisaa.",
+            "seuraava": {
+              "teksti": "Osakkeet voi tuottaa rahaa sinulle osingoista ja arvonnoususta. Haluatko kuulla minka tyyppisia eri osakkeita on olemassa?",
+              "valinnat": [
+                {
+                  "teksti": "Kylla, haluan tietaa eri osaketyypeista.",
+                  "seuraava": {
+                    "teksti": "Erilaisia osakkeita ovat mm. kasvuosakkeet, arvo-osakkeet seka osinkoosakkeet. Haluatko viela kuulla lisaa?",
+                    "valinnat": [
+                      {
+                        "teksti": "Ei kiitos.",
+                        "seuraava": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "teksti": "Haluan oppia kryptovaluutoista. Mita ne ovat?",
+      "seuraava": {
+        "teksti": "Kryptovaluutat ovat digitaalisia rahoja, joita kaytetaan ilman keskuspankkeja tai valtion viranomaisten valvontaa. Haluatko tietaa, miten voit aloittaa niihin sijoittamisen?",
+        "valinnat": [
+          {
+            "teksti": "Kylla, kerro minulle.",
+            "seuraava": {
+              "teksti": "Kryptovaluutat ovat hyvin volatiileja sijoituskohteita, eli niiden hinta heiluu runsaasti. Paljonko olet valmis sijoittamaan niihin (voit menettaa kaiken)?",
+              "valinnat": [
+                {
+                  "teksti": "Vaikkapa 100 euroa kuukaudessa.",
+                  "seuraava": null
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
